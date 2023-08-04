@@ -1,0 +1,24 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+*.env
+
+# Ignore sensitive data or secrets file (if using secrets.toml)
+secrets.toml
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
